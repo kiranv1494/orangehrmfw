@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [OrangeHRM]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="PIM(failed)">
+    <classes>
+      <class name="com.orangehrm.tests.LoginTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.orangehrm.tests.LoginTest -->
+      <class name="com.orangehrm.tests.AddEmployeeTest">
+        <methods>
+          <include name="verifyEditEmployee"/>
+          <include name="initialize"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.orangehrm.tests.AddEmployeeTest -->
+    </classes>
+  </test> <!-- PIM(failed) -->
+</suite> <!-- Failed suite [OrangeHRM] -->

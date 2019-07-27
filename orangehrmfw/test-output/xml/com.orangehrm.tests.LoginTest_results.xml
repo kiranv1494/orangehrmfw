@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="18.440">
+  <properties />
+  
+  
+            <testcase name="verifyLoginWithBlankUserName" time="0.355" classname="com.orangehrm.tests.LoginTest" />
+                <testcase name="verifyLoginWithBlankPassword" time="0.543" classname="com.orangehrm.tests.LoginTest" />
+                <testcase name="verifyAllFooterLinks" time="15.560" classname="com.orangehrm.tests.LoginTest" />
+                <testcase name="verifyFooterText" time="0.074" classname="com.orangehrm.tests.LoginTest" />
+                <testcase name="verifyLoginWithInvalidCredentials" time="1.908" classname="com.orangehrm.tests.LoginTest" />
+      
+</testsuite>

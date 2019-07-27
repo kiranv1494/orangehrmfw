@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="OrangeHRM">
+	
+	
+	<test name="PIM">
+		<classes>
+			<class name="com.orangehrm.tests.AddEmployeeTest"/>			
+		</classes>
+	</test>
+</suite>
+

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OrangeHRM" duration-ms="108678" started-at="2019-06-26T03:38:11Z" finished-at="2019-06-26T03:40:00Z">
+    <groups>
+    </groups>
+    <test name="Login" duration-ms="49404" started-at="2019-06-26T03:38:11Z" finished-at="2019-06-26T03:39:00Z">
+      <class name="com.orangehrm.tests.LoginTest">
+        <test-method status="PASS" signature="launchBrowser(java.lang.reflect.Method)[pri:0, instance:com.orangehrm.tests.LoginTest@6737fd8f]" name="launchBrowser" is-config="true" duration-ms="5926" started-at="2019-06-26T09:08:11Z" finished-at="2019-06-26T09:08:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.orangehrm.tests.LoginTest.verifyAllFooterLinks()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verifyAllFooterLinks()[pri:0, instance:com.orangehrm.tests.LoginTest@6737fd8f]" name="verifyAllFooterLinks" duration-ms="15560" started-at="2019-06-26T09:08:17Z" finished-at="2019-06-26T09:08:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllFooterLinks -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.orangehrm.tests.LoginTest@6737fd8f]" name="closeBrowser" is-config="true" duration-ms="966" started-at="2019-06-26T09:08:32Z" finished-at="2019-06-26T09:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.reflect.Method)[pri:0, instance:com.orangehrm.tests.LoginTest@6737fd8f]" name="launchBrowser" is-config="true" duration-ms="5199" started-at="2019-06-26T09:08:33Z" finished-at="2019-06-26T09:08:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.orangehrm.tests.LoginTest.verifyFooterText()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verifyFooterText()[pri:0, instance:com.orangehrm.tests.LoginTest@6737fd8f]" name="verifyFooterText" duration-ms="74" started-at="2019-06-26T09:08:39Z" finished-at="2019-06-26T09:08:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterText -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.orangehrm.tests.LoginTest@6737fd8f]" name="closeBrowser" is-config="true" duration-ms="673" started-at="2019-06-26T09:08:39Z" finished-at="2019-06-26T09:08:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.reflect.Method)[pri:0, instance:com.orangehrm.tests.LoginTest@6737fd8f]" name="launchBrowser" is-config="true" duration-ms="5327" started-at="2019-06-26T09:08:39Z" finished-at="2019-06-26T09:08:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.orangehrm.tests.LoginTest.verifyLoginWithBlankPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verifyLoginWithBlankPassword()[pri:0, instance:com.orangehrm.tests.LoginTest@6737fd8f]" name="verifyLoginWithBlankPassword" duration-ms="543" started-at="2019-06-26T09:08:45Z" finished-at="2019-06-26T09:08:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithBlankPassword -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.orangehrm.tests.LoginTest@6737fd8f]" name="closeBrowser" is-config="true" duration-ms="676" started-at="2019-06-26T09:08:45Z" finished-at="2019-06-26T09:08:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.reflect.Method)[pri:0, instance:com.orangehrm.tests.LoginTest@6737fd8f]" name="launchBrowser" is-config="true" duration-ms="5358" started-at="2019-06-26T09:08:46Z" finished-at="2019-06-26T09:08:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.orangehrm.tests.LoginTest.verifyLoginWithBlankUserName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verifyLoginWithBlankUserName()[pri:0, instance:com.orangehrm.tests.LoginTest@6737fd8f]" name="verifyLoginWithBlankUserName" duration-ms="355" started-at="2019-06-26T09:08:51Z" finished-at="2019-06-26T09:08:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithBlankUserName -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.orangehrm.tests.LoginTest@6737fd8f]" name="closeBrowser" is-config="true" duration-ms="676" started-at="2019-06-26T09:08:52Z" finished-at="2019-06-26T09:08:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.reflect.Method)[pri:0, instance:com.orangehrm.tests.LoginTest@6737fd8f]" name="launchBrowser" is-config="true" duration-ms="5470" started-at="2019-06-26T09:08:52Z" finished-at="2019-06-26T09:08:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.orangehrm.tests.LoginTest.verifyLoginWithInvalidCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verifyLoginWithInvalidCredentials()[pri:0, instance:com.orangehrm.tests.LoginTest@6737fd8f]" name="verifyLoginWithInvalidCredentials" duration-ms="1908" started-at="2019-06-26T09:08:58Z" finished-at="2019-06-26T09:09:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCredentials -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.orangehrm.tests.LoginTest@6737fd8f]" name="closeBrowser" is-config="true" duration-ms="669" started-at="2019-06-26T09:09:00Z" finished-at="2019-06-26T09:09:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.orangehrm.tests.LoginTest -->
+    </test> <!-- Login -->
+    <test name="PIM" duration-ms="59256" started-at="2019-06-26T03:39:00Z" finished-at="2019-06-26T03:40:00Z">
+      <class name="com.orangehrm.tests.AddEmployeeTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.orangehrm.tests.AddEmployeeTest@d44fc21]" name="initialize" is-config="true" duration-ms="925" started-at="2019-06-26T09:08:10Z" finished-at="2019-06-26T09:08:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.reflect.Method)[pri:0, instance:com.orangehrm.tests.AddEmployeeTest@d44fc21]" name="launchBrowser" is-config="true" duration-ms="5339" started-at="2019-06-26T09:09:00Z" finished-at="2019-06-26T09:09:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.orangehrm.tests.AddEmployeeTest.verifyAddEmployee()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verifyAddEmployee()[pri:0, instance:com.orangehrm.tests.AddEmployeeTest@d44fc21]" name="verifyAddEmployee" duration-ms="16329" started-at="2019-06-26T09:09:06Z" finished-at="2019-06-26T09:09:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddEmployee -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.orangehrm.tests.AddEmployeeTest@d44fc21]" name="closeBrowser" is-config="true" duration-ms="656" started-at="2019-06-26T09:09:22Z" finished-at="2019-06-26T09:09:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.reflect.Method)[pri:0, instance:com.orangehrm.tests.AddEmployeeTest@d44fc21]" name="launchBrowser" is-config="true" duration-ms="5365" started-at="2019-06-26T09:09:23Z" finished-at="2019-06-26T09:09:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.orangehrm.tests.AddEmployeeTest.verifyEditEmployee()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="FAIL" signature="verifyEditEmployee()[pri:0, instance:com.orangehrm.tests.AddEmployeeTest@d44fc21]" name="verifyEditEmployee" duration-ms="30838" started-at="2019-06-26T09:09:28Z" finished-at="2019-06-26T09:09:59Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Verify record after edit: Lists differ at element [0]: Rahul1 != RahulRahul1 expected [Rahul1] but found [RahulRahul1]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Verify record after edit: Lists differ at element [0]: Rahul1 != RahulRahul1 expected [Rahul1] but found [RahulRahul1]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:551)
+	at com.orangehrm.tests.AddEmployeeTest.verifyEditEmployee(AddEmployeeTest.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEditEmployee -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.orangehrm.tests.AddEmployeeTest@d44fc21]" name="closeBrowser" is-config="true" duration-ms="720" started-at="2019-06-26T09:09:59Z" finished-at="2019-06-26T09:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.orangehrm.tests.AddEmployeeTest -->
+    </test> <!-- PIM -->
+  </suite> <!-- OrangeHRM -->
+</testng-results>
